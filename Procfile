@@ -1,1 +1,1 @@
-web: sh aura-impl/target/bin/webapp
+web:    java -cp target/classes:target/dependency/* Main
